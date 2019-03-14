@@ -1,7 +1,7 @@
 {
 	"name": "qzphoto",
-	"version": "1.0.0",
-	"description": "",
+	"version": "1.0.1",
+	"description": "QQ空间相册备份工具",
 	"main": "index.js",
 	"bin": {
 		"qzphoto": "bin/qzphoto"
@@ -23,6 +23,10 @@
 		"QQ空间",
 		"空间相册"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kangkang520/qzphoto.git"
+	},
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
@@ -30,7 +34,9 @@
 		"@types/request": "^2.48.1",
 		"moment": "^2.24.0",
 		"node-fetch": "^2.3.0",
-		"request": "^2.88.0",
+		"request": "^2.88.0"
+	},
+	"devDependencies": {
 		"ts-node": "^8.0.3",
 		"typescript": "^3.3.3333"
 	}
