@@ -1,0 +1,37 @@
+{
+	"name": "qzphoto",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"bin": {
+		"qzphoto": "bin/qzphoto"
+	},
+	"scripts": {},
+	"keywords": [
+		"qq",
+		"qzone",
+		"zone",
+		"photo",
+		"backup",
+		"download",
+		"get",
+		"fetch",
+		"空间",
+		"相册",
+		"备份",
+		"下载",
+		"QQ空间",
+		"空间相册"
+	],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/node-fetch": "^2.1.6",
+		"@types/request": "^2.48.1",
+		"moment": "^2.24.0",
+		"node-fetch": "^2.3.0",
+		"request": "^2.88.0",
+		"ts-node": "^8.0.3",
+		"typescript": "^3.3.3333"
+	}
+}
